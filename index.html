@@ -8,10 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameMarket bidenko</title>
     <style type="text/css">
-        #myButton {
-            background-image: url('reset.png');
-            /* Додавання зображення на фон кнопки */
-            width: 300px;
+        .myButton {
+            width: 250px;
             /* Ширина кнопки */
             height: 50px;
             /* Висота кнопки */
@@ -21,15 +19,30 @@
             /* Видалення рамки */
             cursor: pointer;
             /* Курсор при наведенні на кнопку */
+            background-color: #ff7e5f;
+            /* Колір фону кнопки */
+            color: rgb(217, 255, 0);
+            /* Колір тексту кнопки */
+            font-size: 16px;
+            /* Розмір тексту кнопки */
+            font-weight: bold;
+            /* Жирний шрифт */
+            border-radius: 5px;
+            /* Радіус закруглення кутів */
+            padding: 10px 20px;
+            /* Внутрішні відступи */
+            margin: 10px;
+            /* Зовнішні відступи між кнопками */
         }
     </style>
 </head>
 
 <body>
     <img src="img/170x170.jpg" alt="">
-    <button id="Mybutton"> нАТИСНІТЬ МЕНЕ</button>
-
-    
+    <button class="myButton">купити</button>
+    <button class="myButton">текст</button>
+    <button class="myButton">текст</button>
+    <button class="myButton">текст</button>
 </body>
 
 </html>
