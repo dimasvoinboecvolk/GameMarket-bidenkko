@@ -1,0 +1,15 @@
+body {
+    background-image: linear-gradient(to right, hwb(0 100% 0%), #f61ffd7c);
+    display: flex;
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px
+}
+div{
+    border: 17px solid rgb(255, 163, 163);
+    border-radius: 50px;
+    border-style: groove;
+    border-top: #5720587c;
+
+}
