@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to right, hwb(0 18% 64%), #f61ffd7c);
+    display: flex;
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px
+}
+div{
+    border: 17px solid rgb(255, 0, 0);
+    border-radius: 50px;
+    border-style: ridge;
+    border-top: #e130e47c;
+
+}
+content {
+    width: 800px;
+    height: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px
+}
