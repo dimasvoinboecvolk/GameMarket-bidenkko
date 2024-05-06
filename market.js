@@ -18,7 +18,7 @@ if (itemsDiv) {
     itemsDiv.innerText = 'Перший Програмно доданий текст'
     itemsDiv.innerText += 'Другий Програмно доданий текст'
 
-    itemsDiv.innerHTML = '<h1>Відформатований HTML код</h1>'
+    //itemsDiv.innerHTML = '<h1>Відформатований HTML код</h1>'
 
 
 } else {
