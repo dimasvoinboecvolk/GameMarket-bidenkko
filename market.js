@@ -13,10 +13,10 @@ if (itemsDiv) {
     console.log('Поле clientWidth ', itemsDiv.clientWidth)
     console.log('Поле innerHTML ', itemsDiv.innerHTML)
 
-    itemsDiv.innerText = 'Програмно доданий текст'
+    //itemsDiv.innerText = 'Програмно доданий текст'
     
-    itemsDiv.innerText = 'Перший Програмно доданий текст'
-    itemsDiv.innerText += 'Другий Програмно доданий текст'
+    //itemsDiv.innerText = 'Перший Програмно доданий текст'
+    //itemsDiv.innerText += 'Другий Програмно доданий текст'
 
     //itemsDiv.innerHTML = '<h1>Відформатований HTML код</h1>'
 
