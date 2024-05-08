@@ -41,3 +41,13 @@ if (itemsDiv) {
 
     console.log('Блок товарів не знайдено')
 }
+
+let itemsArray = ['газонокосорка','електричний тример','електро газонокосарка','акамуляторний оприскувач']
+
+
+console.log(itemsArray)
+
+for (let i = 0; i < itemsArray.length; i++){
+    console.log(i + '-й елемент: ' ,itemsArray[i])
+}
+
