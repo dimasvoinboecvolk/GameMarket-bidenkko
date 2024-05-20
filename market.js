@@ -128,21 +128,21 @@ if (itemsDiv) {
 
 
 
-    console.log(itemsArray)
+   // console.log(itemsArray)
 
     //itemsArray = itemsArray.sort().forEach((item) => {
     //console.log( item)
     //})
 
-    itemsArray.sort().forEach((item, index) => {
-        console.log(index + '-й елемент: ', item)
-    })
+// itemsArray.sort().forEach((item, index) => {
+       // console.log(index + '-й елемент: ', item)
+   // })
 
 
 
-    for (let i = 0; i < itemsArray.length; i++) {
-        console.log(i + '-й елемент: ', itemsArray[i])
-    }
+   // for (let i = 0; i < itemsArray.length; i++) {
+    //    console.log(i + '-й елемент: ', itemsArray[i])
+    //}
 
     let itemsArray = [
         {
@@ -153,5 +153,24 @@ if (itemsDiv) {
             prise_standart: 5499,
             prise_discount: 4497,
             prise_coupon: 4395,
+        },
+        {
+            title: "бензопила",
+            image:  "https://images.prom.ua/3896328358_w300_h300_kustorez-motokosa-stihl.jpg",
+            mono: 4,
+            pb: 10,
+            prise_standart: 5499,
+            prise_discount: 4497,
+            prise_coupon: 4395,
+        },
+        {
+            title: "Газонокосарка",
+            image:  "https://images.prom.ua/3896328358_w300_h300_kustorez-motokosa-stihl.jpg",
+            mono: 4,
+            pb: 10,
+            prise_standart: 5499,
+            prise_discount: 4497,
+            prise_coupon: 4395,
         }
+
     ]
